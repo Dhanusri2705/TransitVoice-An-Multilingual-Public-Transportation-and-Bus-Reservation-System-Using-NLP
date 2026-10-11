@@ -27,3 +27,14 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+dist/
+build/
