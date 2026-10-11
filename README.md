@@ -1,8 +1,8 @@
+
 # TransitVoice - AI-Powered Multilingual Voice-Based Public Transport Information, Bus Booking, Live Tracking and Complaint Platform
 
 TransitVoice is a full-stack, realistic bus-booking application and intelligent passenger assistant platform. It combines modern bus reservation workflows (similar to RedBus) with multilingual natural language processing (NLP) and Web Speech API interaction.
 
----
 
 ## 🚀 Key Features
 
@@ -18,11 +18,11 @@ TransitVoice is a full-stack, realistic bus-booking application and intelligent 
    - **System Administrators**: Platform analytics KPI dashboard, revenue graphs, and complaint remediation.
 8. **Academic NLP Debug Panel**: Dedicated inspection interface showcasing raw preprocessing, language detection, TF-IDF n-gram vectorization, LinearSVC intent classification, gazetteer NER extraction, and grounded database QA.
 
----
 
-## 🏗️ Architecture & Technology Stack
 
-```
+🏗️ Architecture & Technology Stack
+
+
 TransitVoice/
 ├── frontend/             # React (Vite) + Tailwind CSS + Leaflet + Lucide + Web Speech API
 ├── backend/              # Node.js + Express REST API + JWT Auth + Local JSON/MongoDB DB store
@@ -98,3 +98,49 @@ You can run these test queries in the **Academic Demo** page (`/nlp-demo`) or us
 8. `"How many seats are available?"`
 9. `"Coimbatore lendhu Chennai ku bus irukka?"` (Tanglish)
 10. `"Chennai se Madurai jane ke liye bus hai kya?"` (Hinglish)
+=======
+# TransitVoice
+
+**An Intelligent Multilingual Public Transportation and Bus Reservation System Using Natural Language Processing**
+
+## About the Project
+
+TransitVoice is an NLP-based public transportation assistant that enables users to search for bus information, ask questions in supported languages, interact through voice features, make demo bookings, track journeys, and submit complaints or feedback.
+
+## Key Features
+
+- Multilingual text processing and translation
+- Speech input and voice-based interaction
+- Intent classification using TF-IDF and Logistic Regression
+- Named Entity Recognition (NER)
+- Question Answering and chatbot functionality
+- Sentiment analysis of passenger feedback
+- Bus search, demo booking, and simulated tracking
+- Passenger, operator, and admin dashboards
+
+## Technologies Used
+
+- Frontend: React, Vite, Tailwind CSS
+- Backend: Node.js, Express.js
+- NLP Service: Python, Flask, scikit-learn
+- Data Processing: pandas
+- Authentication: JWT and bcrypt
+- Data Storage: CSV and JSON files
+
+## NLP Concepts
+
+1. Speech Processing
+2. Machine Translation
+3. Text Preprocessing
+4. Intent Classification
+5. Named Entity Recognition
+6. Question Answering
+
+## Important Note
+
+Bus schedules and tracking information should be treated as demonstration data unless verified against an official live transport source. Tracking may use simulation rather than live GPS.
+
+## Project Status
+
+Academic NLP project developed for educational and demonstration purposes.
+a43294a96b462f817409325e134a7e73f7ff114b
