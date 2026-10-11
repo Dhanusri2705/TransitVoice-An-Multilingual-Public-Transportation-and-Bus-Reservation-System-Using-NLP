@@ -1,0 +1,56 @@
+[
+  {
+    "id": "T29",
+    "category": "Bus Tracking Lookup",
+    "description": "Non-existent bus lookup returns null (no fallback to db.buses[0])",
+    "expected": "null",
+    "actual": "null",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T30",
+    "category": "Bus Tracking Lookup",
+    "description": "Valid bus lookup for TNSTC-120",
+    "expected": "TNSTC-120",
+    "actual": "TNSTC-120",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T31",
+    "category": "Simulated Tracking Transparency",
+    "description": "Payload is explicitly flagged as Simulated Tracking with disclaimer",
+    "expected": "is_simulated=true, tracking_type=Simulated Tracking",
+    "actual": "is_simulated=true, type=Simulated Tracking",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T32",
+    "category": "Booking / Journey Status Separation",
+    "description": "Confirmed booking for future trip does NOT start journey or mark stops passed",
+    "expected": "booking_status=CONFIRMED, bus_status=UPCOMING, speed=0, passed stops=0",
+    "actual": "booking=CONFIRMED, journey=UPCOMING, speed=0, passed=0",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T33",
+    "category": "Cancelled Booking Tracking",
+    "description": "Cancelled booking shows CANCELLED status and tracking unavailable message",
+    "expected": "booking_status=CANCELLED, bus_status=CANCELLED",
+    "actual": "booking=CANCELLED, journey=CANCELLED",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T34",
+    "category": "Journey Lifecycle (In Transit)",
+    "description": "Active trip past departure time is IN_TRANSIT with speed > 0 and source stop passed",
+    "expected": "bus_status=IN_TRANSIT, speed > 0, stop 0 passed, stop 2 not passed",
+    "actual": "status=IN_TRANSIT, speed=56, wp0=true, wp2=false",
+    "status": "PASS",
+    "details": ""
+  }
+]

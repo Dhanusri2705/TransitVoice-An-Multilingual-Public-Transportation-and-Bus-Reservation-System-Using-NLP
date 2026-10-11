@@ -1,0 +1,64 @@
+{
+  "operators": [
+    {
+      "operator_id": "OP-101",
+      "operator_name": "SRS Travels",
+      "contact_number": "+91 9876543210",
+      "email": "support@srstravels.in",
+      "address": "CMBT Koyambedu, Chennai",
+      "total_buses": 24,
+      "rating": 4.6,
+      "status": "ACTIVE"
+    },
+    {
+      "operator_id": "OP-102",
+      "operator_name": "KPN Travels",
+      "contact_number": "+91 9876543211",
+      "email": "help@kpntravels.com",
+      "address": "Gandhipuram, Coimbatore",
+      "total_buses": 18,
+      "rating": 4.4,
+      "status": "ACTIVE"
+    },
+    {
+      "operator_id": "OP-103",
+      "operator_name": "VRL Travels",
+      "contact_number": "+91 9876543212",
+      "email": "contact@vrltravels.com",
+      "address": "Madiwala, Bangalore",
+      "total_buses": 30,
+      "rating": 4.7,
+      "status": "ACTIVE"
+    },
+    {
+      "operator_id": "OP-104",
+      "operator_name": "Orange Travels",
+      "contact_number": "+91 9876543213",
+      "email": "info@orangetravels.in",
+      "address": "Lakdikapul, Hyderabad",
+      "total_buses": 15,
+      "rating": 4.5,
+      "status": "ACTIVE"
+    },
+    {
+      "operator_id": "OP-105",
+      "operator_name": "IntrCity SmartBus",
+      "contact_number": "+91 9876543214",
+      "email": "care@intrcity.com",
+      "address": "Electronic City, Bangalore",
+      "total_buses": 22,
+      "rating": 4.8,
+      "status": "ACTIVE"
+    },
+    {
+      "operator_id": "OP-106",
+      "operator_name": "Parveen Travels",
+      "contact_number": "+91 9876543215",
+      "email": "support@parveentravels.com",
+      "address": "Egmore, Chennai",
+      "total_buses": 16,
+      "rating": 4.3,
+      "status": "ACTIVE"
+    }
+  ]
+}

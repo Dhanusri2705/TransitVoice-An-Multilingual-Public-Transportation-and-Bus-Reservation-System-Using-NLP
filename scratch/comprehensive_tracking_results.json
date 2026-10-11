@@ -1,0 +1,110 @@
+[
+  {
+    "id": "S1",
+    "category": "Pre-Booking State",
+    "description": "View bus TNSTC-120 before booking",
+    "expected": "has_active_booking=false, schedule-driven journey status",
+    "actual": "active=false, journey_status=IN_TRANSIT",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S2",
+    "category": "Post-Booking Confirmation",
+    "description": "Confirmed ticket does NOT start journey or mark stops passed",
+    "expected": "booking=CONFIRMED, bus=UPCOMING, speed=0, passed_stops=0",
+    "actual": "booking=CONFIRMED, bus=UPCOMING, speed=0, passed=0",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S3",
+    "category": "Pre-Departure (>30m before departure)",
+    "description": "Bus status is UPCOMING with speed 0 and 0 passed stops",
+    "expected": "bus_status=UPCOMING, speed=0, passed=0",
+    "actual": "bus_status=UPCOMING, speed=0, passed=0",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S4",
+    "category": "Boarding Window (0-30m before departure)",
+    "description": "Boarding starts soon displayed only when justified by schedule rules",
+    "expected": "bus_status=BOARDING, speed=0, passed=0",
+    "actual": "bus_status=BOARDING, speed=0, passed=0",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S5",
+    "category": "In-Transit Progression",
+    "description": "Active trip is IN_TRANSIT with speed > 0 and source passed but destination upcoming",
+    "expected": "bus_status=IN_TRANSIT, speed > 0, stop0=true, last_stop=false",
+    "actual": "bus_status=IN_TRANSIT, speed=61, stop0=true, last=false",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S6",
+    "category": "Route Waypoint Order",
+    "description": "Waypoints follow actual route stops in correct order",
+    "expected": "Source=Coimbatore, destination=Chennai",
+    "actual": "First stop=Coimbatore Gandhipuram, total stops=5",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S7",
+    "category": "Arrival Lifecycle Completion",
+    "description": "Journey marked ARRIVED with speed 0, distance 0, and all stops passed",
+    "expected": "bus_status=ARRIVED, speed=0, dist=0, all passed=true",
+    "actual": "bus_status=ARRIVED, speed=0, dist=0, all_passed=true",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S8",
+    "category": "Refresh Consistency",
+    "description": "Re-fetching tracking returns consistent state without reset or jump",
+    "expected": "Consistent bus_status and waypoint state",
+    "actual": "status1=IN_TRANSIT, status2=IN_TRANSIT",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S9",
+    "category": "Shared Active Journey",
+    "description": "Second passenger booking preserves active journey without resetting progress",
+    "expected": "bus_status=IN_TRANSIT, stop0=passed",
+    "actual": "p2_bus_status=IN_TRANSIT, p2_stop0=true",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S10-12",
+    "category": "Independent Multi-Route Tracking",
+    "description": "Distinct routes (Coimbatore, Madurai, Bangalore) have independent coordinates and waypoints",
+    "expected": "Independent source coordinates and route data",
+    "actual": "CBE=11.0168, MDU=9.9252, BLR=11.0168",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S13",
+    "category": "Cancelled Booking Tracking",
+    "description": "Cancelled booking shows CANCELLED status and cancellation message",
+    "expected": "booking=CANCELLED, bus=CANCELLED",
+    "actual": "booking=CANCELLED, bus=CANCELLED",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "S14",
+    "category": "Invalid Bus ID Handling",
+    "description": "Invalid bus lookup returns null (NEVER falls back to db.buses[0])",
+    "expected": "null (404)",
+    "actual": "null",
+    "status": "PASS",
+    "details": ""
+  }
+]

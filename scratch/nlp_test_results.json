@@ -1,0 +1,254 @@
+[
+  {
+    "id": "T1",
+    "category": "Language Detection",
+    "input": "I need a bus from Coimbatore to Chennai.",
+    "expected": "en",
+    "actual": "en",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T2",
+    "category": "Language Detection",
+    "input": "எனக்கு கோயம்புத்தூரிலிருந்து சென்னைக்கு ஒரு பேருந்து வேண்டும்.",
+    "expected": "ta",
+    "actual": "ta",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T3",
+    "category": "Language Detection",
+    "input": "मुझे कोयंबटूर से चेन्नई जाने के लिए एक बस चाहिए।",
+    "expected": "hi",
+    "actual": "hi",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T4",
+    "category": "Language Detection",
+    "input": "నాకు కోయంబత్తూరు నుండి చెన్నైకి వెళ్లడానికి ఒక బస్సు కావాలి.",
+    "expected": "te",
+    "actual": "te",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T5",
+    "category": "Language Detection",
+    "input": "എനിക്ക് കോയമ്പത്തൂരിൽ നിന്ന് ചെന്നൈയിലേക്ക് ഒരു ബസ് വേണം.",
+    "expected": "ml",
+    "actual": "ml",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T6",
+    "category": "Machine Translation",
+    "input": "எனக்கு கோயம்புத்தூரிலிருந்து சென்னைக்கு ஒரு பேருந்து வேண்டும்.",
+    "expected": "English text with Coimbatore & Chennai",
+    "actual": "I want a bus from Coimbatore to Chennai.",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T7",
+    "category": "Machine Translation",
+    "input": "मुझे कोयंबटूर से चेन्नई जाने के लिए एक बस चाहिए।",
+    "expected": "English text with Coimbatore & Chennai",
+    "actual": "I need a bus from Coimbatore to Chennai.",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T8",
+    "category": "Machine Translation",
+    "input": "నాకు కోయంబత్తూరు నుండి చెన్నైకి వెళ్లడానికి ఒక బస్సు కావాలి.",
+    "expected": "English text with Coimbatore & Chennai",
+    "actual": "I need a bus from Coimbatore to Chennai.",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T9",
+    "category": "Machine Translation",
+    "input": "എനിക്ക് കോയമ്പത്തൂരിൽ നിന്ന് ചെന്നൈയിലേക്ക് ഒരു ബസ് വേണം.",
+    "expected": "English text with Coimbatore & Chennai",
+    "actual": "I want a bus from Coimbatore to Chennai.",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T10",
+    "category": "Machine Translation",
+    "input": "I need a bus from Coimbatore to Chennai.",
+    "expected": "English text with Coimbatore & Chennai",
+    "actual": "I need a bus from Coimbatore to Chennai.",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T11",
+    "category": "Date & Time Extraction",
+    "input": "I need a bus from Coimbatore to Chennai.",
+    "expected": "Date: None, Time: None",
+    "actual": "Date: None, Time: None",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T12",
+    "category": "Date & Time Extraction",
+    "input": "I need a bus from Coimbatore to Chennai tomorrow.",
+    "expected": "Date: TOMORROW, Time: None",
+    "actual": "Date: 2026-10-12, Time: None",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T13",
+    "category": "Date & Time Extraction",
+    "input": "I need a bus from Coimbatore to Chennai on 20 October 2026.",
+    "expected": "Date: 2026-10-20, Time: None",
+    "actual": "Date: 2026-10-20, Time: None",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T14",
+    "category": "Date & Time Extraction",
+    "input": "I need a bus from Coimbatore to Chennai at 6 PM.",
+    "expected": "Date: None, Time: TIME_PRESENT",
+    "actual": "Date: None, Time: 18:00",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T15",
+    "category": "Route Direction NER",
+    "input": "I need a bus from Coimbatore to Chennai.",
+    "expected": "src=Coimbatore, dst=Chennai",
+    "actual": "src=Coimbatore, dst=Chennai",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T16",
+    "category": "Route Direction NER",
+    "input": "I need a bus from Chennai to Coimbatore.",
+    "expected": "src=Chennai, dst=Coimbatore",
+    "actual": "src=Chennai, dst=Coimbatore",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T17",
+    "category": "Intent Classification",
+    "input": "The bus is very unclean.",
+    "expected": "complaint",
+    "actual": "complaint (0.72)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T18",
+    "category": "Intent Classification",
+    "input": "பேருந்து மிகவும் அழுக்காக இருக்கிறது.",
+    "expected": "complaint",
+    "actual": "complaint (0.75)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T19",
+    "category": "Intent Classification",
+    "input": "बस बहुत गंदी है।",
+    "expected": "complaint",
+    "actual": "complaint (0.75)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T20",
+    "category": "Intent Classification",
+    "input": "బస్సు చాలా అపరిశుభ్రంగా ఉంది.",
+    "expected": "complaint",
+    "actual": "complaint (0.79)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T21",
+    "category": "Intent Classification",
+    "input": "ബസ് വളരെ വൃത്തിഹീനമാണ്.",
+    "expected": "complaint",
+    "actual": "complaint (0.75)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T22",
+    "category": "Intent Classification",
+    "input": "The driver was rude.",
+    "expected": "complaint",
+    "actual": "complaint (0.78)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T23",
+    "category": "Intent Classification",
+    "input": "The bus was comfortable and clean.",
+    "expected": "feedback",
+    "actual": "feedback (0.67)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T24",
+    "category": "Chatbot Complaint Response",
+    "input": "The bus is very unclean.",
+    "expected": "Grievance guidance (no bus search)",
+    "actual": "I'm sorry about the cleanliness issue. Would you like to sub...",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T25",
+    "category": "Chatbot Route Search Response",
+    "input": "I need a bus from Coimbatore to Chennai.",
+    "expected": "Search response with route info",
+    "actual": "I found **19 bus services** for **Coimbatore → Chennai**. Ea...",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T26",
+    "category": "Review Analysis & Inquiry Filter",
+    "input": "ബസ് വളരെ വൃത്തിയുള്ളതും സുഖകരവുമായിരുന്നു.",
+    "expected": "is_review=True, sent=POSITIVE",
+    "actual": "is_review=True, sent=POSITIVE, rating=4.8",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T27",
+    "category": "Review Analysis & Inquiry Filter",
+    "input": "How many seats are available on the bus?",
+    "expected": "is_review=False, sent=None",
+    "actual": "is_review=False, sent=NEUTRAL, rating=None",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "id": "T28",
+    "category": "Review Analysis & Inquiry Filter",
+    "input": "బస్సులో ఎన్ని సీట్లు ఖாళీగా ఉన్నాయి?",
+    "expected": "is_review=False, sent=None",
+    "actual": "is_review=False, sent=NEUTRAL, rating=None",
+    "status": "PASS",
+    "details": ""
+  }
+]
