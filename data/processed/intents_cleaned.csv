@@ -1,0 +1,813 @@
+query,intent
+ac not working in the bus,complaint
+are seats available from bangalore to trichy,seat_availability
+are seats available from chennai to hyderabad,seat_availability
+are seats available from chennai to kurnool,seat_availability
+are seats available from chennai to tirupati,seat_availability
+are seats available from coimbatore to vijayawada,seat_availability
+are seats available from hyderabad to madurai,seat_availability
+are seats available from hyderabad to pune,seat_availability
+are seats available from hyderabad to salem,seat_availability
+are seats available from kochi to pondicherry,seat_availability
+are seats available from mumbai to pondicherry,seat_availability
+are seats available from mumbai to pune,seat_availability
+are seats available from pondicherry to coimbatore,seat_availability
+are seats available from pondicherry to hyderabad,seat_availability
+are seats available from pune to tirupati,seat_availability
+are seats available from tirupati to trichy,seat_availability
+are seats available from trichy to pondicherry,seat_availability
+are seats available from trichy to vijayawada,seat_availability
+are seats available from vijayawada to pondicherry,seat_availability
+are seats available from vijayawada to tirupati,seat_availability
+arrival time of bus ka05cd5678,bus_timing
+arrival time of bus tn01ab1234,bus_timing
+arrival time of bus tv-00102,bus_timing
+book a ticket from bangalore to hyderabad,booking
+book a ticket from chennai to salem,booking
+book a ticket from hyderabad to pondicherry,booking
+book a ticket from kochi to pune,booking
+book a ticket from kurnool to bangalore,booking
+book a ticket from kurnool to hyderabad,booking
+book a ticket from kurnool to trichy,booking
+book a ticket from mumbai to tirupati,booking
+book a ticket from pondicherry to bangalore,booking
+book a ticket from pondicherry to coimbatore,booking
+book a ticket from pondicherry to madurai,booking
+book a ticket from pune to kochi,booking
+book a ticket from pune to tirupati,booking
+book a ticket from pune to trichy,booking
+book a ticket from tirupati to kochi,booking
+book a ticket from tirupati to mumbai,booking
+book a ticket from tirupati to salem,booking
+book a ticket from tirupati to vijayawada,booking
+book a ticket from trichy to pondicherry,booking
+book bus ka05cd5678,booking
+book bus tn01ab1234,booking
+book bus tv-00102,booking
+book me a seat on the bangalore to kurnool bus,booking
+book me a seat on the chennai to pondicherry bus,booking
+book me a seat on the chennai to salem bus,booking
+book me a seat on the chennai to vijayawada bus,booking
+book me a seat on the hyderabad to salem bus,booking
+book me a seat on the kochi to pune bus,booking
+book me a seat on the kochi to trichy bus,booking
+book me a seat on the mumbai to bangalore bus,booking
+book me a seat on the pondicherry to chennai bus,booking
+book me a seat on the pondicherry to pune bus,booking
+book me a seat on the pune to kurnool bus,booking
+book me a seat on the salem to coimbatore bus,booking
+book me a seat on the tirupati to vijayawada bus,booking
+book me a seat on the trichy to hyderabad bus,booking
+book me a seat on the trichy to pondicherry bus,booking
+book me a seat on the vijayawada to coimbatore bus,booking
+book me a seat on the vijayawada to pondicherry bus,booking
+bus arrived late i want to complain,complaint
+bus available from bangalore to kurnool on tomorrow,route_search
+bus available from bangalore to tirupati on tomorrow,route_search
+bus available from chennai to kochi on tomorrow,route_search
+bus available from chennai to madurai on tonight,route_search
+bus available from chennai to salem on tomorrow,route_search
+bus available from coimbatore to kochi on today,route_search
+bus available from coimbatore to pondicherry on,route_search
+bus available from coimbatore to tirupati on today,route_search
+bus available from hyderabad to madurai on,route_search
+bus available from madurai to hyderabad on tonight,route_search
+bus available from madurai to mumbai on tonight,route_search
+bus available from mumbai to salem on tomorrow,route_search
+bus available from pondicherry to vijayawada on,route_search
+bus available from pune to kochi on tonight,route_search
+bus available from pune to madurai on today,route_search
+bus available from tirupati to pune on tonight,route_search
+bus available from trichy to madurai on tomorrow,route_search
+bus available from trichy to pune on today,route_search
+bus available from vijayawada to mumbai on,route_search
+bus available from vijayawada to pondicherry on tomorrow,route_search
+bus fare bangalore to hyderabad,fare_inquiry
+bus fare coimbatore to hyderabad,fare_inquiry
+bus fare hyderabad to vijayawada,fare_inquiry
+bus fare kochi to hyderabad,fare_inquiry
+bus fare kurnool to bangalore,fare_inquiry
+bus fare kurnool to kochi,fare_inquiry
+bus fare kurnool to mumbai,fare_inquiry
+bus fare kurnool to pondicherry,fare_inquiry
+bus fare madurai to pondicherry,fare_inquiry
+bus fare mumbai to salem,fare_inquiry
+bus fare pondicherry to mumbai,fare_inquiry
+bus fare salem to kochi,fare_inquiry
+bus fare salem to tirupati,fare_inquiry
+bus fare tirupati to kurnool,fare_inquiry
+bus fare tirupati to vijayawada,fare_inquiry
+bus fare trichy to kochi,fare_inquiry
+bus fare vijayawada to bangalore,fare_inquiry
+bus fare vijayawada to chennai,fare_inquiry
+bus fare vijayawada to tirupati,fare_inquiry
+bus from bangalore to hyderabad,route_search
+bus from chennai to madurai,route_search
+bus from coimbatore to bangalore,route_search
+bus from coimbatore to hyderabad,route_search
+bus from coimbatore to kochi,route_search
+bus from kurnool to bangalore,route_search
+bus from madurai to kurnool,route_search
+bus from madurai to pondicherry,route_search
+bus from mumbai to pondicherry,route_search
+bus from mumbai to pune,route_search
+bus from pondicherry to tirupati,route_search
+bus from salem to kurnool,route_search
+bus from salem to mumbai,route_search
+bus from salem to pondicherry,route_search
+bus from tirupati to bangalore,route_search
+bus from tirupati to pune,route_search
+bus from tirupati to salem,route_search
+bus from tirupati to vijayawada,route_search
+bus from vijayawada to trichy,route_search
+bus status of ka05cd5678,bus_status
+bus status of tn01ab1234,bus_status
+bus status of tv-00102,bus_status
+bus timings from bangalore to mumbai,bus_timing
+bus timings from chennai to hyderabad,bus_timing
+bus timings from coimbatore to tirupati,bus_timing
+bus timings from hyderabad to bangalore,bus_timing
+bus timings from hyderabad to mumbai,bus_timing
+bus timings from hyderabad to tirupati,bus_timing
+bus timings from kochi to hyderabad,bus_timing
+bus timings from kochi to trichy,bus_timing
+bus timings from kurnool to bangalore,bus_timing
+bus timings from mumbai to kochi,bus_timing
+bus timings from mumbai to pune,bus_timing
+bus timings from pondicherry to vijayawada,bus_timing
+bus timings from salem to kurnool,bus_timing
+bus timings from salem to madurai,bus_timing
+bus timings from trichy to bangalore,bus_timing
+bus timings from trichy to coimbatore,bus_timing
+bus timings from trichy to kurnool,bus_timing
+bus timings from trichy to pune,bus_timing
+bus timings from vijayawada to bangalore,bus_timing
+bus was delayed for hours complaint,complaint
+bus was very dirty,complaint
+can i carry pets,general_information
+cancel my ticket,cancellation
+cancellation policy,cancellation
+cheapest bus from bangalore to pune,fare_inquiry
+cheapest bus from chennai to pune,fare_inquiry
+cheapest bus from coimbatore to pune,fare_inquiry
+cheapest bus from kochi to pondicherry,fare_inquiry
+cheapest bus from kochi to salem,fare_inquiry
+cheapest bus from kurnool to tirupati,fare_inquiry
+cheapest bus from madurai to kurnool,fare_inquiry
+cheapest bus from madurai to pondicherry,fare_inquiry
+cheapest bus from mumbai to tirupati,fare_inquiry
+cheapest bus from pondicherry to salem,fare_inquiry
+cheapest bus from pondicherry to vijayawada,fare_inquiry
+cheapest bus from salem to madurai,fare_inquiry
+cheapest bus from salem to vijayawada,fare_inquiry
+cheapest bus from tirupati to coimbatore,fare_inquiry
+cheapest bus from tirupati to hyderabad,fare_inquiry
+cheapest bus from trichy to mumbai,fare_inquiry
+cheapest bus from vijayawada to bangalore,fare_inquiry
+cheapest bus from vijayawada to pondicherry,fare_inquiry
+check seat count from bangalore to hyderabad,seat_availability
+check seat count from chennai to coimbatore,seat_availability
+check seat count from chennai to kurnool,seat_availability
+check seat count from chennai to mumbai,seat_availability
+check seat count from chennai to trichy,seat_availability
+check seat count from coimbatore to hyderabad,seat_availability
+check seat count from hyderabad to tirupati,seat_availability
+check seat count from kurnool to tirupati,seat_availability
+check seat count from mumbai to chennai,seat_availability
+check seat count from mumbai to coimbatore,seat_availability
+check seat count from mumbai to vijayawada,seat_availability
+check seat count from pune to kochi,seat_availability
+check seat count from pune to trichy,seat_availability
+check seat count from salem to chennai,seat_availability
+check seat count from salem to pune,seat_availability
+check seat count from tirupati to hyderabad,seat_availability
+check seat count from tirupati to pondicherry,seat_availability
+check seat count from tirupati to pune,seat_availability
+confirm my booking,booking
+departure time of chennai to hyderabad bus,bus_timing
+departure time of chennai to kurnool bus,bus_timing
+departure time of chennai to pondicherry bus,bus_timing
+departure time of coimbatore to kurnool bus,bus_timing
+departure time of coimbatore to trichy bus,bus_timing
+departure time of kochi to bangalore bus,bus_timing
+departure time of kochi to pune bus,bus_timing
+departure time of kurnool to madurai bus,bus_timing
+departure time of kurnool to mumbai bus,bus_timing
+departure time of madurai to vijayawada bus,bus_timing
+departure time of mumbai to madurai bus,bus_timing
+departure time of mumbai to tirupati bus,bus_timing
+departure time of pune to bangalore bus,bus_timing
+departure time of pune to salem bus,bus_timing
+departure time of salem to bangalore bus,bus_timing
+departure time of salem to chennai bus,bus_timing
+departure time of salem to mumbai bus,bus_timing
+departure time of salem to pune bus,bus_timing
+departure time of salem to vijayawada bus,bus_timing
+departure time of trichy to madurai bus,bus_timing
+do buses have wifi,general_information
+do you have charging points,general_information
+excellent travel experience,feedback
+feedback,feedback
+file a complaint regarding delay,complaint
+find me a bus to bangalore from pune,route_search
+find me a bus to bangalore from vijayawada,route_search
+find me a bus to coimbatore from bangalore,route_search
+find me a bus to coimbatore from madurai,route_search
+find me a bus to hyderabad from coimbatore,route_search
+find me a bus to hyderabad from tirupati,route_search
+find me a bus to hyderabad from trichy,route_search
+find me a bus to kochi from coimbatore,route_search
+find me a bus to kochi from tirupati,route_search
+find me a bus to kurnool from hyderabad,route_search
+find me a bus to madurai from hyderabad,route_search
+find me a bus to mumbai from bangalore,route_search
+find me a bus to mumbai from kochi,route_search
+find me a bus to mumbai from madurai,route_search
+find me a bus to pondicherry from kurnool,route_search
+find me a bus to pondicherry from vijayawada,route_search
+find me a bus to pune from chennai,route_search
+find me a bus to pune from hyderabad,route_search
+find me a bus to pune from vijayawada,route_search
+find me a bus to vijayawada from trichy,route_search
+give feedback,feedback
+good evening,greeting
+good morning,greeting
+great service by greenline travels,feedback
+great service by intrcity smartbus,feedback
+great service by kpn travels,feedback
+great service by morning star travels,feedback
+great service by orange travels,feedback
+great service by parveen travels,feedback
+great service by srs travels,feedback
+great service by vrl travels,feedback
+has the bus from bangalore to pune left,bus_status
+has the bus from coimbatore to kochi left,bus_status
+has the bus from coimbatore to mumbai left,bus_status
+has the bus from kochi to salem left,bus_status
+has the bus from kochi to trichy left,bus_status
+has the bus from kurnool to coimbatore left,bus_status
+has the bus from kurnool to kochi left,bus_status
+has the bus from kurnool to pune left,bus_status
+has the bus from madurai to bangalore left,bus_status
+has the bus from madurai to pune left,bus_status
+has the bus from mumbai to bangalore left,bus_status
+has the bus from pondicherry to kurnool left,bus_status
+has the bus from pune to hyderabad left,bus_status
+has the bus from pune to madurai left,bus_status
+has the bus from tirupati to kurnool left,bus_status
+has the bus from trichy to chennai left,bus_status
+has the bus from trichy to coimbatore left,bus_status
+has the bus from trichy to madurai left,bus_status
+has the bus from trichy to pondicherry left,bus_status
+hello,greeting
+hello assistant,greeting
+hey there,greeting
+hi,greeting
+hi there,greeting
+hi transitvoice,greeting
+how can i cancel my booking,cancellation
+how do i cancel ticket,cancellation
+how many seats are left,seat_availability
+how much does it cost,fare_inquiry
+how much is the ticket to bangalore,fare_inquiry
+how much is the ticket to chennai,fare_inquiry
+how much is the ticket to coimbatore,fare_inquiry
+how much is the ticket to hyderabad,fare_inquiry
+how much is the ticket to kochi,fare_inquiry
+how much is the ticket to kurnool,fare_inquiry
+how much is the ticket to pune,fare_inquiry
+how much is the ticket to salem,fare_inquiry
+how much is the ticket to tirupati,fare_inquiry
+how much is the ticket to trichy,fare_inquiry
+how much is the ticket to vijayawada,fare_inquiry
+how much luggage is allowed,general_information
+i have a complaint about greenline travels,complaint
+i have a complaint about intrcity smartbus,complaint
+i have a complaint about kpn travels,complaint
+i have a complaint about morning star travels,complaint
+i have a complaint about parveen travels,complaint
+i have a complaint about srs travels,complaint
+i have a complaint about vrl travels,complaint
+i want a bus from bangalore to vijayawada today,route_search
+i want a bus from chennai to bangalore tonight,route_search
+i want a bus from chennai to pondicherry today,route_search
+i want a bus from chennai to tirupati,route_search
+i want a bus from chennai to vijayawada,route_search
+i want a bus from coimbatore to hyderabad tomorrow,route_search
+i want a bus from coimbatore to tirupati tomorrow,route_search
+i want a bus from hyderabad to coimbatore,route_search
+i want a bus from hyderabad to kochi,route_search
+i want a bus from kochi to madurai tomorrow,route_search
+i want a bus from kurnool to tirupati tomorrow,route_search
+i want a bus from kurnool to trichy tomorrow,route_search
+i want a bus from madurai to bangalore today,route_search
+i want a bus from madurai to chennai,route_search
+i want a bus from madurai to pune,route_search
+i want a bus from pondicherry to salem today,route_search
+i want a bus from pune to hyderabad tonight,route_search
+i want a bus from pune to madurai tonight,route_search
+i want a bus from tirupati to pondicherry,route_search
+i want a bus from vijayawada to chennai,route_search
+i want to book 1 seats,booking
+i want to book 2 seats,booking
+i want to book 3 seats,booking
+i want to book 4 seats,booking
+i want to cancel booking,cancellation
+i want to give feedback,feedback
+is my bus late,bus_status
+is the bus delayed,bus_status
+is there a bus from bangalore to coimbatore tonight,route_search
+is there a bus from bangalore to pondicherry tomorrow,route_search
+is there a bus from bangalore to trichy tonight,route_search
+is there a bus from chennai to bangalore today,route_search
+is there a bus from chennai to salem today,route_search
+is there a bus from coimbatore to trichy today,route_search
+is there a bus from kochi to coimbatore today,route_search
+is there a bus from kurnool to bangalore,route_search
+is there a bus from kurnool to bangalore tomorrow,route_search
+is there a bus from kurnool to kochi today,route_search
+is there a bus from madurai to chennai tomorrow,route_search
+is there a bus from madurai to hyderabad tonight,route_search
+is there a bus from madurai to pune tomorrow,route_search
+is there a bus from madurai to trichy tonight,route_search
+is there a bus from pondicherry to chennai tonight,route_search
+is there a bus from pune to kochi today,route_search
+is there a bus from pune to vijayawada tonight,route_search
+is there a bus from tirupati to bangalore tomorrow,route_search
+is there a bus from trichy to kochi tomorrow,route_search
+is there a bus from vijayawada to chennai tomorrow,route_search
+is there an ac sleeper,seat_availability
+is there an ac sleeper from bangalore to coimbatore,seat_availability
+is there an ac sleeper from bangalore to salem,seat_availability
+is there an ac sleeper from chennai to hyderabad,seat_availability
+is there an ac sleeper from chennai to kurnool,seat_availability
+is there an ac sleeper from chennai to salem,seat_availability
+is there an ac sleeper from chennai to tirupati,seat_availability
+is there an ac sleeper from coimbatore to hyderabad,seat_availability
+is there an ac sleeper from coimbatore to kurnool,seat_availability
+is there an ac sleeper from coimbatore to pune,seat_availability
+is there an ac sleeper from coimbatore to vijayawada,seat_availability
+is there an ac sleeper from kochi to salem,seat_availability
+is there an ac sleeper from kurnool to coimbatore,seat_availability
+is there an ac sleeper from kurnool to pondicherry,seat_availability
+is there an ac sleeper from madurai to kurnool,seat_availability
+is there an ac sleeper from mumbai to kochi,seat_availability
+is there an ac sleeper from mumbai to trichy,seat_availability
+is there an ac sleeper from pondicherry to vijayawada,seat_availability
+is there an ac sleeper from vijayawada to madurai,seat_availability
+is there any seat in the bus to chennai,seat_availability
+is there any seat in the bus to coimbatore,seat_availability
+is there any seat in the bus to hyderabad,seat_availability
+is there any seat in the bus to kochi,seat_availability
+is there any seat in the bus to kurnool,seat_availability
+is there any seat in the bus to madurai,seat_availability
+is there any seat in the bus to mumbai,seat_availability
+is there any seat in the bus to pune,seat_availability
+is there any seat in the bus to tirupati,seat_availability
+is there any seat in the bus to trichy,seat_availability
+is water bottle provided,general_information
+live location of my bus,bus_status
+my seat was broken,complaint
+namaste,greeting
+need a bus from bangalore to kurnool at morning,route_search
+need a bus from bangalore to madurai at night,route_search
+need a bus from coimbatore to hyderabad at 10 pm,route_search
+need a bus from coimbatore to pondicherry at 6:30 am,route_search
+need a bus from hyderabad to coimbatore at night,route_search
+need a bus from kochi to mumbai at 6:30 am,route_search
+need a bus from kochi to tirupati at 10 pm,route_search
+need a bus from kurnool to madurai at 6:30 am,route_search
+need a bus from kurnool to madurai at 8 pm,route_search
+need a bus from kurnool to salem at morning,route_search
+need a bus from madurai to pondicherry at 6:30 am,route_search
+need a bus from pondicherry to kurnool at 8 pm,route_search
+need a bus from pune to kochi at 6:30 am,route_search
+need a bus from salem to chennai at night,route_search
+need a bus from salem to kochi at 8 pm,route_search
+need a bus from salem to trichy at morning,route_search
+need a bus from tirupati to pune at 8 pm,route_search
+need a bus from tirupati to salem at night,route_search
+need a bus from trichy to hyderabad at 6:30 am,route_search
+process cancellation for my booking,cancellation
+rate my trip,feedback
+rating and feedback,feedback
+refund for cancelled ticket,cancellation
+reserve 1 tickets to coimbatore,booking
+reserve 1 tickets to hyderabad,booking
+reserve 1 tickets to kochi,booking
+reserve 1 tickets to mumbai,booking
+reserve 1 tickets to pondicherry,booking
+reserve 1 tickets to salem,booking
+reserve 2 tickets to chennai,booking
+reserve 2 tickets to coimbatore,booking
+reserve 2 tickets to kochi,booking
+reserve 2 tickets to pondicherry,booking
+reserve 2 tickets to salem,booking
+reserve 2 tickets to tirupati,booking
+reserve 3 tickets to hyderabad,booking
+reserve 3 tickets to kochi,booking
+reserve 3 tickets to trichy,booking
+reserve 3 tickets to vijayawada,booking
+reserve 4 tickets to hyderabad,booking
+reserve 4 tickets to kurnool,booking
+reserve 4 tickets to pune,booking
+reserve 4 tickets to vijayawada,booking
+search bus from chennai to kochi,route_search
+search bus from chennai to pune,route_search
+search bus from kochi to hyderabad,route_search
+search bus from kochi to kurnool,route_search
+search bus from kurnool to hyderabad,route_search
+search bus from kurnool to mumbai,route_search
+search bus from kurnool to salem,route_search
+search bus from madurai to pune,route_search
+search bus from mumbai to kochi,route_search
+search bus from mumbai to vijayawada,route_search
+search bus from pondicherry to kochi,route_search
+search bus from pune to chennai,route_search
+search bus from pune to salem,route_search
+search bus from pune to tirupati,route_search
+search bus from salem to hyderabad,route_search
+search bus from salem to kochi,route_search
+search bus from trichy to madurai,route_search
+search bus from trichy to pondicherry,route_search
+search bus from trichy to pune,route_search
+search bus from trichy to tirupati,route_search
+seat availability bangalore to pune,seat_availability
+seat availability chennai to hyderabad,seat_availability
+seat availability chennai to pune,seat_availability
+seat availability hyderabad to coimbatore,seat_availability
+seat availability kochi to coimbatore,seat_availability
+seat availability kochi to hyderabad,seat_availability
+seat availability kochi to pondicherry,seat_availability
+seat availability kochi to trichy,seat_availability
+seat availability kochi to vijayawada,seat_availability
+seat availability kurnool to pondicherry,seat_availability
+seat availability madurai to trichy,seat_availability
+seat availability mumbai to kochi,seat_availability
+seat availability pondicherry to tirupati,seat_availability
+seat availability salem to hyderabad,seat_availability
+seat availability salem to trichy,seat_availability
+seat availability tirupati to bangalore,seat_availability
+seat availability tirupati to madurai,seat_availability
+seat availability tirupati to mumbai,seat_availability
+seat availability trichy to coimbatore,seat_availability
+seat availability trichy to madurai,seat_availability
+show buses bangalore to pondicherry,route_search
+show buses chennai to bangalore,route_search
+show buses chennai to coimbatore,route_search
+show buses coimbatore to madurai,route_search
+show buses coimbatore to trichy,route_search
+show buses hyderabad to mumbai,route_search
+show buses kurnool to madurai,route_search
+show buses madurai to kurnool,route_search
+show buses madurai to salem,route_search
+show buses madurai to vijayawada,route_search
+show buses mumbai to chennai,route_search
+show buses mumbai to hyderabad,route_search
+show buses mumbai to pune,route_search
+show buses pondicherry to pune,route_search
+show buses pondicherry to tirupati,route_search
+show buses pondicherry to vijayawada,route_search
+show buses salem to bangalore,route_search
+show buses salem to mumbai,route_search
+show buses tirupati to salem,route_search
+submitting customer feedback,feedback
+submitting feedback for trip,feedback
+the driver was rude,complaint
+the journey was comfortable,feedback
+the staff were very helpful,feedback
+ticket price for chennai to mumbai,fare_inquiry
+ticket price for chennai to salem,fare_inquiry
+ticket price for coimbatore to madurai,fare_inquiry
+ticket price for hyderabad to madurai,fare_inquiry
+ticket price for hyderabad to salem,fare_inquiry
+ticket price for kochi to coimbatore,fare_inquiry
+ticket price for kochi to mumbai,fare_inquiry
+ticket price for kochi to pune,fare_inquiry
+ticket price for kurnool to salem,fare_inquiry
+ticket price for madurai to pune,fare_inquiry
+ticket price for madurai to vijayawada,fare_inquiry
+ticket price for mumbai to kurnool,fare_inquiry
+ticket price for salem to trichy,fare_inquiry
+ticket price for tirupati to vijayawada,fare_inquiry
+ticket price for trichy to bangalore,fare_inquiry
+ticket price for trichy to coimbatore,fare_inquiry
+ticket price for trichy to hyderabad,fare_inquiry
+ticket price for trichy to kochi,fare_inquiry
+ticket price for trichy to pune,fare_inquiry
+ticket price for vijayawada to madurai,fare_inquiry
+ticket rate for greenline travels bus from chennai to hyderabad,fare_inquiry
+ticket rate for greenline travels bus from madurai to chennai,fare_inquiry
+ticket rate for greenline travels bus from tirupati to trichy,fare_inquiry
+ticket rate for greenline travels bus from vijayawada to mumbai,fare_inquiry
+ticket rate for intrcity smartbus bus from hyderabad to chennai,fare_inquiry
+ticket rate for intrcity smartbus bus from trichy to chennai,fare_inquiry
+ticket rate for kpn travels bus from chennai to madurai,fare_inquiry
+ticket rate for kpn travels bus from chennai to mumbai,fare_inquiry
+ticket rate for kpn travels bus from hyderabad to trichy,fare_inquiry
+ticket rate for morning star travels bus from kochi to coimbatore,fare_inquiry
+ticket rate for morning star travels bus from mumbai to salem,fare_inquiry
+ticket rate for morning star travels bus from pondicherry to bangalore,fare_inquiry
+ticket rate for morning star travels bus from pondicherry to kochi,fare_inquiry
+ticket rate for orange travels bus from pune to salem,fare_inquiry
+ticket rate for parveen travels bus from mumbai to vijayawada,fare_inquiry
+ticket rate for parveen travels bus from pune to coimbatore,fare_inquiry
+ticket rate for parveen travels bus from vijayawada to bangalore,fare_inquiry
+ticket rate for srs travels bus from kochi to coimbatore,fare_inquiry
+ticket rate for vrl travels bus from kurnool to pune,fare_inquiry
+ticket rate for vrl travels bus from pondicherry to vijayawada,fare_inquiry
+timing for bangalore to pune buses,bus_timing
+timing for chennai to pondicherry buses,bus_timing
+timing for chennai to pune buses,bus_timing
+timing for coimbatore to madurai buses,bus_timing
+timing for coimbatore to salem buses,bus_timing
+timing for coimbatore to vijayawada buses,bus_timing
+timing for kochi to chennai buses,bus_timing
+timing for kochi to pondicherry buses,bus_timing
+timing for kochi to salem buses,bus_timing
+timing for kochi to vijayawada buses,bus_timing
+timing for kurnool to hyderabad buses,bus_timing
+timing for madurai to kochi buses,bus_timing
+timing for madurai to salem buses,bus_timing
+timing for mumbai to pondicherry buses,bus_timing
+timing for mumbai to pune buses,bus_timing
+timing for trichy to coimbatore buses,bus_timing
+timing for trichy to tirupati buses,bus_timing
+timing for trichy to vijayawada buses,bus_timing
+timing for vijayawada to salem buses,bus_timing
+track bus ka05cd5678,bus_status
+track bus tn01ab1234,bus_status
+track bus tv-00102,bus_status
+vanakkam,greeting
+what amenities are available,general_information
+what are the boarding points,general_information
+what is the fare,fare_inquiry
+what is the fare from bangalore to hyderabad,fare_inquiry
+what is the fare from bangalore to tirupati,fare_inquiry
+what is the fare from chennai to mumbai,fare_inquiry
+what is the fare from chennai to trichy,fare_inquiry
+what is the fare from coimbatore to chennai,fare_inquiry
+what is the fare from coimbatore to vijayawada,fare_inquiry
+what is the fare from hyderabad to chennai,fare_inquiry
+what is the fare from kurnool to pune,fare_inquiry
+what is the fare from kurnool to tirupati,fare_inquiry
+what is the fare from kurnool to trichy,fare_inquiry
+what is the fare from madurai to kochi,fare_inquiry
+what is the fare from pondicherry to vijayawada,fare_inquiry
+what is the fare from pune to chennai,fare_inquiry
+what is the fare from salem to bangalore,fare_inquiry
+what is the fare from tirupati to bangalore,fare_inquiry
+what is the fare from tirupati to pune,fare_inquiry
+what is the fare from tirupati to trichy,fare_inquiry
+what is the fare from vijayawada to chennai,fare_inquiry
+what is the fare from vijayawada to mumbai,fare_inquiry
+what is the fare from vijayawada to salem,fare_inquiry
+what time does the bus from chennai to hyderabad depart,bus_timing
+what time does the bus from coimbatore to kochi depart,bus_timing
+what time does the bus from hyderabad to tirupati depart,bus_timing
+what time does the bus from kochi to chennai depart,bus_timing
+what time does the bus from kochi to pune depart,bus_timing
+what time does the bus from madurai to bangalore depart,bus_timing
+what time does the bus from madurai to pune depart,bus_timing
+what time does the bus from madurai to trichy depart,bus_timing
+what time does the bus from mumbai to kochi depart,bus_timing
+what time does the bus from mumbai to kurnool depart,bus_timing
+what time does the bus from mumbai to pondicherry depart,bus_timing
+what time does the bus from pondicherry to tirupati depart,bus_timing
+what time does the bus from salem to coimbatore depart,bus_timing
+what time does the bus from salem to tirupati depart,bus_timing
+what time does the bus from tirupati to mumbai depart,bus_timing
+what time does the bus from tirupati to trichy depart,bus_timing
+what time does the bus from tirupati to vijayawada depart,bus_timing
+what time does the bus from trichy to kurnool depart,bus_timing
+what time does the bus leave,bus_timing
+when is the next bus to bangalore,bus_timing
+when is the next bus to chennai,bus_timing
+when is the next bus to coimbatore,bus_timing
+when is the next bus to hyderabad,bus_timing
+when is the next bus to kurnool,bus_timing
+when is the next bus to mumbai,bus_timing
+when is the next bus to pondicherry,bus_timing
+when is the next bus to pune,bus_timing
+when is the next bus to salem,bus_timing
+when is the next bus to tirupati,bus_timing
+when is the next bus to trichy,bus_timing
+where is bus ka05cd5678,bus_status
+where is bus tn01ab1234,bus_status
+where is bus tv-00102,bus_status
+where is my bus,bus_status
+which bus has seats available,seat_availability
+which buses go from bangalore to coimbatore,route_search
+which buses go from bangalore to mumbai,route_search
+which buses go from bangalore to tirupati,route_search
+which buses go from chennai to coimbatore,route_search
+which buses go from chennai to vijayawada,route_search
+which buses go from coimbatore to pune,route_search
+which buses go from hyderabad to kurnool,route_search
+which buses go from hyderabad to madurai,route_search
+which buses go from kochi to pune,route_search
+which buses go from kurnool to pune,route_search
+which buses go from kurnool to tirupati,route_search
+which buses go from kurnool to vijayawada,route_search
+which buses go from pondicherry to kochi,route_search
+which buses go from pondicherry to mumbai,route_search
+which buses go from pondicherry to vijayawada,route_search
+which buses go from pune to bangalore,route_search
+which buses go from pune to pondicherry,route_search
+which buses go from tirupati to coimbatore,route_search
+which buses go from vijayawada to pondicherry,route_search
+which buses have ac,general_information
+which operators run buses,general_information
+coimbatore lendhu chennai ku naalaikku evening bus irukka?,bus_search
+chennai se madurai jane ke liye bus hai kya?,bus_search
+chennai to coimbatore bus search,bus_search
+i want an ac bus from coimbatore to chennai tomorrow after 8 pm under 700 rupees,bus_search
+show sleeper buses from bangalore to chennai,bus_search
+naalaikku trichy ku bus irukka,bus_search
+kal subah bangalore ki bus ticket chahiye,bus_search
+what is the ticket fare for chennai to madurai,fare_inquiry
+ticket evlo aagum coimbatore to chennai,fare_inquiry
+kitna kitna ticket price hai hyderabad to bangalore,fare_inquiry
+which bus is cheapest from chennai to madurai,fare_inquiry
+is my bus delayed,bus_status
+my bus from chennai to madurai is delayed,complaint
+bus eppo varum,tracking
+where is my bus right now,tracking
+bus live location kaatu,tracking
+live tracking link for my bus,tracking
+driver was very rude and ac was not working,complaint
+bus clean ah illa very dirty,complaint
+the journey was very comfortable driver drove safely,feedback
+super travel experience excellent bus condition,feedback
+nalla nalla travel nallaruurku rating 5,feedback
+how many seats available in tv-00102,seat_availability
+seats irukka chennai bus la,seat_availability
+i want to cancel my ticket tv-book-101,cancellation
+ticket cancel panna mudiyuma,cancellation
+cancel my booking refund timing,cancellation
+hello transitvoice,greeting
+hi good morning,greeting
+vanakkam transitvoice assistant,greeting
+namaste bus search kaise kare,help
+help me book a seat,help
+how to use voice search,help
+the bus is very unclean.,complaint
+the bus seats are dirty.,complaint
+the bus is extremely dirty and smelling bad.,complaint
+very unclean bus with dust and trash everywhere,complaint
+the seats are sticky and stained.,complaint
+the bus was not cleaned properly before journey.,complaint
+cockroaches and mosquitoes inside the bus,complaint
+unclean blankets and pillows provided,complaint
+poor hygiene inside the bus,complaint
+the bus is unhygienic and dirty.,complaint
+பேருந்து மிகவும் அழுக்காக இருக்கிறது.,complaint
+இருக்கைகள் மிகவும் அழுக்காக உள்ளன.,complaint
+பேருந்தில் துர்நாற்றம் வீசுகிறது.,complaint
+சுத்தமில்லாத பேருந்து மிகவும் மோசம்.,complaint
+bus romba dirty ah irukku unclean ah irukku,complaint
+bus clean ah illa full ah dust,complaint
+बस बहुत गंदी है।,complaint
+बस की सीटें बहुत गंदी और मैली हैं।,complaint
+बस में बहुत बदबू आ रही है।,complaint
+सफाई बिल्कुल नहीं है बस बहुत गंदी है।,complaint
+bus bahut gandi hai safai nahi hai,complaint
+బస్సు చాలా అపరిశుభ్రంగా ఉంది.,complaint
+బస్సు సీట్లు చాలా మురికిగా ఉన్నాయి.,complaint
+బస్సులో దుర్వాసన వస్తోంది.,complaint
+bus chala dirty ga undi unclean ga undi,complaint
+ബസ് വളരെ വൃത്തിഹീനമാണ്.,complaint
+ബസ് സീറ്റുകൾ വളരെ വൃത്തികെട്ടതാണ്.,complaint
+ബസിൽ ദുർഗന്ധം വമിക്കുന്നു.,complaint
+bus valare unclean aanu dirty aanu,complaint
+the bus is delayed.,complaint
+the bus is running 2 hours late.,complaint
+my bus was delayed by more than three hours.,complaint
+bus departure was postponed without notice,complaint
+huge delay in arrival time,complaint
+பேருந்து மிகவும் தாமதமாக வந்தது.,complaint
+என் பேருந்து இரண்டு மணி நேரம் தாமதம்.,complaint
+बस बहुत देर से आई।,complaint
+मेरी बस दो घंटे लेट है।,complaint
+బస్సు చాలా ఆలస్యంగా వచ్చింది.,complaint
+నా బస్సు చాలా లేట్ అయింది.,complaint
+ബസ് വളരെ വൈകിയാണ് വന്നത്.,complaint
+എന്റെ ബസ് രണ്ടു മണിക്കൂർ വൈകി.,complaint
+the driver was rude.,complaint
+the driver was extremely rash and overspeeding.,complaint
+driver misbehaved with passengers,complaint
+conductor was shouting and very aggressive,complaint
+reckless driving put passengers at risk,complaint
+driver was speaking on mobile while driving,complaint
+ஓட்டுநர் மிகவும் மரியாதைக்குறைவாக பேசினார்.,complaint
+மோசமான ஓட்டுநர் அதிவேகமாக ஓட்டினார்.,complaint
+ड्राइवर बहुत बदतमीज और अशिष्ट था।,complaint
+ड्राइवर खतरनाक तरीके से गाड़ी चला रहा था।,complaint
+డ్రైవర్ దురుసుగా ప్రవర్తించాడు.,complaint
+డ్రైవర్ మితిమీరిన వేగంతో నడిపాడు.,complaint
+ഡ്രൈവർ വളരെ മോശമായി പെരുമാറി.,complaint
+ഡ്രൈവർ അമിതവേഗതയിലാണ് ഓടിച്ചത്.,complaint
+i want to complain about the poor service.,complaint
+file a complaint against the operator,complaint
+pathetic service worst travel experience,complaint
+horrible experience with this bus service,complaint
+ac was not working throughout the trip,complaint
+charging port and lights were broken,complaint
+மோசமான சேவை பற்றி புகார் செய்ய வேண்டும்.,complaint
+खराब सेवा के खिलाफ शिकायत दर्ज करनी है।,complaint
+చెడు సేవపై ఫిర్యాదు నమోదు చేయాలి.,complaint
+മോശം സർവീസിനെതിരെ പരാതി നൽകണം.,complaint
+the bus was comfortable and clean.,feedback
+the journey was smooth and very pleasant.,feedback
+superb travel experience excellent bus condition,feedback
+driver was very polite and drove safely,feedback
+clean bus punctual departure and comfortable seats,feedback
+loved the travel experience 5 star rating,feedback
+great bus ride smooth driving and helpful staff,feedback
+very neat and hygienic bus comfortable journey,feedback
+great trip highly recommended bus operator,feedback
+பேருந்து மிகவும் வசதியாகவும் சுத்தமாகவும் இருந்தது.,feedback
+அருமையான பயணம் சிறந்த சேவை.,feedback
+மிகவும் நல்ல அனுபவம் ஐந்து நட்சத்திரங்கள்.,feedback
+bus romba comfortable ah nalla irundhuchu,feedback
+बस बहुत साफ और आरामदायक है।,feedback
+शानदार यात्रा और सुरक्षित ड्राइविंग अनुभव।,feedback
+बहुत ही अच्छी बस सेवा पांच सितारा रेटिंग।,feedback
+yatra bahut acchi aur aaramdayak thi,feedback
+బస్సు చాలా సౌకర్యవంతంగా మరియు పరిశుభ్రంగా ఉంది.,feedback
+చక్కటి ప్రయాణం సురక్షితమైన డ్రైవింగ్.,feedback
+మంచి అనుభవం 5 స్టార్ రేటింగ్.,feedback
+బస్ చాలా బాగుంది ప్రయాణం ప్రశాంతంగా జరిగింది.,feedback
+ബസ് വളരെ വൃത്തിയുള്ളതും സുഖകരവുമായിരുന്നു.,feedback
+വളരെ നല്ല യാത്രാനുഭവം സുരക്ഷിത ഡ്രൈവിംഗ്.,feedback
+മികച്ച സേവനം അഞ്ച് സ്റ്റാർ റേറ്റിംഗ് നൽകുന്നു.,feedback
+യാത്ര വളരെ സുഖകരമായിരുന്നു.,feedback
+where is my bus?,tracking
+where is my bus right now?,tracking
+track my booked bus live location,tracking
+live tracking for my bus tv-00102,tracking
+give me the gps location of my bus,tracking
+என் பேருந்து இப்போது எங்கே இருக்கிறது?,tracking
+பேருந்தின் நேரலை இருப்பிடம் என்ன?,tracking
+मेरी बस अभी कहां है?,tracking
+बस की लाइव लोकेशन दिखाएं।,tracking
+నా బస్సు ఇప్పుడు ఎక్కడ ఉంది?,tracking
+లైవ్ బస్ ట్రాకింగ్ చూపించు.,tracking
+എന്റെ ബസ് ഇപ്പോൾ എവിടെയാണ്?,tracking
+ലൈവ് ട്രാക്കിംഗ് വിവരങ്ങൾ നൽകുക.,tracking
+how do i book a bus ticket?,help
+help me search buses and book seats.,help
+what features does transitvoice offer?,help
+explain how to use voice search,help
+guide me through bus reservation,help
+பயன்பாட்டை எவ்வாறு பயன்படுத்துவது?,help
+एप का उपयोग कैसे करें?,help
+యాప్‌ను ఎలా ఉపయోగించాలి?,help
+ആപ്പ് എങ്ങനെ ഉപയോഗിക്കാം?,help
+i need a bus from coimbatore to chennai.,route_search
+i need a bus from chennai to coimbatore.,route_search
+bus from coimbatore to chennai.,route_search
+i want a bus from bangalore to hyderabad.,route_search
+bus from hyderabad to bangalore,route_search
+find buses from madurai to tiruchirappalli,route_search
+எனக்கு கோயம்புத்தூரிலிருந்து சென்னைக்கு ஒரு பேருந்து வேண்டும்.,route_search
+கோயம்புத்தூரிலிருந்து சென்னைக்கு பேருந்து.,route_search
+சென்னையிலிருந்து கோயம்புத்தூருக்கு பேருந்து வேண்டும்.,route_search
+मुझे कोयंबटूर से चेन्नई जाने के लिए एक बस चाहिए।,route_search
+कोयंबटूर से चेन्नई की बस चाहिए।,route_search
+चेन्नई से कोयंबटूर जाने के लिए बस।,route_search
+నాకు కోయంబత్తూరు నుండి చెన్నైకి వెళ్లడానికి ఒక బస్సు కావాలి.,route_search
+కోయంబత్తూరు నుండి చెన్నైకి బస్సు.,route_search
+చెన్నై నుండి కోయంబత్తూరుకు బస్సు కావాలి.,route_search
+എനിക്ക് കോയമ്പത്തൂരിൽ നിന്ന് ചെന്നൈയിലേക്ക് ഒരു ബസ് വേണം.,route_search
+കോയമ്പത്തൂരിൽ നിന്ന് ചെന്നൈയിലേക്ക് ബസ്സ്.,route_search
+ചെന്നൈയിൽ നിന്ന് കോയമ്പത്തൂരിലേക്ക് ഒരു ബസ് വേണം.,route_search
+what is the fare from coimbatore to chennai?,fare_inquiry
+what is the cheapest bus from coimbatore to chennai?,fare_inquiry
+how much is the ticket price for chennai to madurai,fare_inquiry
+minimum fare for ac sleeper bus,fare_inquiry
+கோயம்புத்தூரிலிருந்து சென்னைக்கு பேருந்து கட்டணம் எவ்வளவு?,fare_inquiry
+குறைந்த கட்டண பேருந்து எது?,fare_inquiry
+कोयंबटूर से चेन्नई का किराया कितना है?,fare_inquiry
+सबसे सस्ती बस कौन सी है?,fare_inquiry
+కోయంబత్తూరు నుండి చెన్నైకి ఛార్జీ ఎంత?,fare_inquiry
+చౌకైన బస్సు ఏది?,fare_inquiry
+കോയമ്പത്തൂരിൽ നിന്ന് ചെന്നൈയിലേക്ക് ബസ് നിരക്ക് എത്രയാണ്?,fare_inquiry
+ഏറ്റവും കുറഞ്ഞ നിരക്കുള്ള ബസ് ഏതാണ്?,fare_inquiry
+what is the timing of bus from coimbatore to chennai?,bus_timing
+when does the earliest bus depart from chennai to madurai?,bus_timing
+bus departure and arrival schedule,bus_timing
+i need a bus from coimbatore to chennai at 6 pm.,bus_timing
+night bus departure times,bus_timing
+பேருந்து புறப்படும் நேரம் என்ன?,bus_timing
+बस छूटने का समय क्या है?,bus_timing
+బస్సు బయలుదేరే సమయం ఏమిటి?,bus_timing
+ബസ് പുറപ്പെടുന്ന സമയം എപ്പോഴാണ്?,bus_timing
+how many seats are available on the bus?,seat_availability
+are seats available from coimbatore to chennai?,seat_availability
+any vacant seats in evening bus,seat_availability
+எத்தனை இருக்கைகள் காலியாக உள்ளன?,seat_availability
+कितनी सीटें उपलब्ध हैं?,seat_availability
+బస్సులో ఎన్ని సీట్లు ఖాళీగా ఉన్నాయి?,seat_availability
+ఎన్ని సీట్లు అందుబాటులో ఉన్నాయి?,seat_availability
+എത്ര സീറ്റുകൾ ലഭ്യമാണ്?,seat_availability

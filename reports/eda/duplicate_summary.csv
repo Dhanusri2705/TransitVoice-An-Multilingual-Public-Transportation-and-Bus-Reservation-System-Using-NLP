@@ -1,0 +1,7 @@
+dataset,total_rows,exact_duplicates,duplicate_percentage
+buses_csv,124,0,0.0
+buses_json,228,0,0.0
+intents_csv,812,0,0.0
+reviews_json,37,0,0.0
+complaints_json,17,0,0.0
+bookings_json,9,0,0.0

@@ -51,5 +51,20 @@
     "profile_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=newuser_1791281956269@domain.com",
     "profile_completed": true,
     "created_at": "2026-10-06T10:19:16.412Z"
+  },
+  {
+    "user_id": "USR-644424",
+    "name": "Ranjani",
+    "email": "ranjani@transitvoice.com",
+    "phone": "",
+    "dob": "",
+    "gender": "",
+    "address": "",
+    "password_hash": "$2a$10$X27EIMwgZcrNZucDodhI7emeeciEr1zTQUlUN8W1m03/lMuGDenm6",
+    "role": "USER",
+    "preferred_language": "English",
+    "profile_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=ranjani@transitvoice.com",
+    "profile_completed": false,
+    "created_at": "2026-10-12T02:04:04.425Z"
   }
 ]

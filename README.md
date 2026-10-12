@@ -22,18 +22,62 @@ TransitVoice is a full-stack, realistic bus-booking application and intelligent 
 
 🏗️ Architecture & Technology Stack
 
-
+```
 TransitVoice/
 ├── frontend/             # React (Vite) + Tailwind CSS + Leaflet + Lucide + Web Speech API
-├── backend/              # Node.js + Express REST API + JWT Auth + Local JSON/MongoDB DB store
+├── backend/              # Node.js + Express REST API + JWT Auth + Local JSON DB store
 ├── nlp_service/          # Python Flask + scikit-learn (TF-IDF + LinearSVC) + Gazetteer NER
-└── data/                 # 124+ Realistic Indian Bus records, Intent Datasets, Seed Users
+├── data/                 # Raw datasets (buses, intents, reviews, complaints, bookings)
+│   ├── processed/        # Cleaned & validated ETL datasets (buses_cleaned, intents_cleaned, etc.)
+│   ├── etl_pipeline.py   # Automated production ETL pipeline
+│   ├── eda_analysis.py   # Automated dynamic EDA analytics engine
+│   └── run_pipeline.py   # Reproducible pipeline orchestrator (ETL + EDA)
+├── reports/
+│   └── eda/              # EDA reports, CSV profiles, and 8 publication charts (300 DPI)
+├── tests/
+│   └── test_etl_eda.py   # Automated verification test suite for data pipeline
+└── docs/
+    └── ETL_EDA_AUDIT_AND_PIPELINE.md # Detailed academic audit and evaluation guide
 ```
 
 - **Frontend**: React 18, React Router DOM v6, Axios, Leaflet / React-Leaflet, Tailwind CSS, Lucide React Icons.
 - **Backend**: Node.js, Express.js, JWT, bcryptjs, REST APIs.
 - **NLP Service**: Python 3.11, Flask, scikit-learn, pandas, joblib, deep-translator, NumPy.
-- **Database**: 124 realistic records across Chennai, Coimbatore, Madurai, Trichy, Salem, Bangalore, Hyderabad, Mysore, Pondicherry, etc.
+- **Data Engineering**: Automated Python ETL pipeline (`etl_pipeline.py`) & EDA Engine (`eda_analysis.py`).
+- **Database**: 228 realistic bus records, 812 intent queries across 14 classes, seed users & feedback.
+
+---
+
+## 📊 Data Pipeline: Automated ETL & EDA
+
+TransitVoice includes a complete, reproducible data engineering subsystem for academic evaluation:
+
+1. **ETL Pipeline (`data/etl_pipeline.py`)**:
+   - **Extract**: Ingests raw datasets with full schema validation and null audit without fabricating data.
+   - **Transform**: Applies canonical gazetteer normalization (e.g. `Trichy` → `Tiruchirappalli`), numeric tariff and seat bounds checks, and intent conflict resolution.
+   - **Load**: Outputs cleaned datasets to `data/processed/` and logs audit report to `data/processed/etl_summary.json` while keeping raw source files immutable.
+
+2. **EDA Engine (`data/eda_analysis.py`)**:
+   - Calculates statistical profiles, fare dispersion ($\mu = ₹580, \text{Median} = ₹500, \text{IQR} = ₹552.50$), econometric fare-distance correlation ($r = 0.9163, R^2 = 0.8396$), intent class distributions ($N=812$ across 14 classes), and feedback telemetry.
+   - Dynamically renders 8 publication-grade charts (300 DPI) and structured CSV profiles into `reports/eda/`.
+
+3. **Academic Documentation**: See full evaluation guide in [ETL_EDA_AUDIT_AND_PIPELINE.md](file:///c:/Users/dhanu/OneDrive/Desktop/TransitVoiceA/docs/ETL_EDA_AUDIT_AND_PIPELINE.md).
+
+### 🚀 Data Pipeline Commands
+
+```bash
+# 1. Run Automated ETL Pipeline
+python data/etl_pipeline.py
+
+# 2. Run Automated EDA Analysis Engine
+python data/eda_analysis.py
+
+# 3. Run Full Pipeline Orchestrator (ETL + EDA)
+python data/run_pipeline.py
+
+# 4. Run Automated Data Pipeline Test Suite
+python -m unittest -v tests/test_etl_eda.py
+```
 
 ---
 

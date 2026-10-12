@@ -1,7 +1,40 @@
 const express = require('express');
 const router = express.Router();
+const fs = require('fs');
+const path = require('path');
 const db = require('../models/db');
 const { verifyToken, requireRole } = require('../middleware/auth');
+
+// GET /api/admin/pipeline-status (Delivers dynamic ETL & EDA audit summaries)
+router.get('/pipeline-status', (req, res) => {
+  const etlSummaryPath = path.join(__dirname, '../../data/processed/etl_summary.json');
+  const edaSummaryPath = path.join(__dirname, '../../reports/eda/eda_summary.json');
+
+  let etlData = null;
+  let edaData = null;
+
+  if (fs.existsSync(etlSummaryPath)) {
+    try {
+      etlData = JSON.parse(fs.readFileSync(etlSummaryPath, 'utf8'));
+    } catch (e) {
+      console.error('Error reading etl_summary.json:', e);
+    }
+  }
+
+  if (fs.existsSync(edaSummaryPath)) {
+    try {
+      edaData = JSON.parse(fs.readFileSync(edaSummaryPath, 'utf8'));
+    } catch (e) {
+      console.error('Error reading eda_summary.json:', e);
+    }
+  }
+
+  res.json({
+    status: etlData && edaData ? 'COMPLETED' : (etlData || edaData ? 'PARTIAL' : 'NOT_RUN'),
+    etl: etlData,
+    eda: edaData
+  });
+});
 
 // GET /api/admin/stats
 router.get('/stats', verifyToken, requireRole(['ADMIN', 'OPERATOR']), (req, res) => {

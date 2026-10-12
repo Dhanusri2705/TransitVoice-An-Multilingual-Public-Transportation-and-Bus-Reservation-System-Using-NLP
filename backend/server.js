@@ -20,6 +20,9 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 
+// Static route for EDA Reports & Visualizations
+app.use('/api/reports/eda', express.static(path.join(__dirname, '../reports/eda')));
+
 // Mount REST API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/buses', busRoutes);

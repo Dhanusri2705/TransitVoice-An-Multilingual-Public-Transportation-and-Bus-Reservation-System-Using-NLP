@@ -1,0 +1,7 @@
+dataset_key,file_path,row_count,column_count,total_cells,missing_cells,missing_percentage,duplicate_rows,memory_usage_kb
+buses_csv,C:\Users\dhanu\OneDrive\Desktop\TransitVoiceA\data\processed\buses_cleaned.csv,124,30,3720,0,0.0,0,191.32
+buses_json,C:\Users\dhanu\OneDrive\Desktop\TransitVoiceA\data\processed\buses_cleaned.json,228,40,9120,149,1.63,0,494.39
+intents_csv,C:\Users\dhanu\OneDrive\Desktop\TransitVoiceA\data\processed\intents_cleaned.csv,812,2,1624,0,0.0,0,141.92
+reviews_json,C:\Users\dhanu\OneDrive\Desktop\TransitVoiceA\data\processed\reviews_cleaned.json,37,18,666,20,3.0,0,39.74
+complaints_json,C:\Users\dhanu\OneDrive\Desktop\TransitVoiceA\data\processed\complaints_cleaned.json,17,19,323,51,15.79,0,22.61
+bookings_json,C:\Users\dhanu\OneDrive\Desktop\TransitVoiceA\data\processed\bookings_cleaned.json,9,23,207,0,0.0,0,14.49

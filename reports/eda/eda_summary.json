@@ -1,0 +1,540 @@
+{
+  "analysis_timestamp": "2026-10-12T09:45:04.144463",
+  "data_source_directory": "C:\\Users\\dhanu\\OneDrive\\Desktop\\TransitVoiceA\\data\\processed",
+  "reports_directory": "C:\\Users\\dhanu\\OneDrive\\Desktop\\TransitVoiceA\\reports\\eda",
+  "dataset_profiles": [
+    {
+      "dataset_key": "buses_csv",
+      "file_path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\TransitVoiceA\\data\\processed\\buses_cleaned.csv",
+      "row_count": 124,
+      "column_count": 30,
+      "total_cells": 3720,
+      "missing_cells": 0,
+      "missing_percentage": 0.0,
+      "duplicate_rows": 0,
+      "memory_usage_kb": 191.32
+    },
+    {
+      "dataset_key": "buses_json",
+      "file_path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\TransitVoiceA\\data\\processed\\buses_cleaned.json",
+      "row_count": 228,
+      "column_count": 40,
+      "total_cells": 9120,
+      "missing_cells": 149,
+      "missing_percentage": 1.63,
+      "duplicate_rows": 0,
+      "memory_usage_kb": 494.39
+    },
+    {
+      "dataset_key": "intents_csv",
+      "file_path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\TransitVoiceA\\data\\processed\\intents_cleaned.csv",
+      "row_count": 812,
+      "column_count": 2,
+      "total_cells": 1624,
+      "missing_cells": 0,
+      "missing_percentage": 0.0,
+      "duplicate_rows": 0,
+      "memory_usage_kb": 141.92
+    },
+    {
+      "dataset_key": "reviews_json",
+      "file_path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\TransitVoiceA\\data\\processed\\reviews_cleaned.json",
+      "row_count": 37,
+      "column_count": 18,
+      "total_cells": 666,
+      "missing_cells": 20,
+      "missing_percentage": 3.0,
+      "duplicate_rows": 0,
+      "memory_usage_kb": 39.74
+    },
+    {
+      "dataset_key": "complaints_json",
+      "file_path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\TransitVoiceA\\data\\processed\\complaints_cleaned.json",
+      "row_count": 17,
+      "column_count": 19,
+      "total_cells": 323,
+      "missing_cells": 51,
+      "missing_percentage": 15.79,
+      "duplicate_rows": 0,
+      "memory_usage_kb": 22.61
+    },
+    {
+      "dataset_key": "bookings_json",
+      "file_path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\TransitVoiceA\\data\\processed\\bookings_cleaned.json",
+      "row_count": 9,
+      "column_count": 23,
+      "total_cells": 207,
+      "missing_cells": 0,
+      "missing_percentage": 0.0,
+      "duplicate_rows": 0,
+      "memory_usage_kb": 14.49
+    }
+  ],
+  "missing_values_summary": [
+    {
+      "dataset": "buses_json",
+      "column_name": "via",
+      "missing_count": 1,
+      "total_rows": 228,
+      "missing_percentage": 0.44
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "distance_km",
+      "missing_count": 1,
+      "total_rows": 228,
+      "missing_percentage": 0.44
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "frequency",
+      "missing_count": 1,
+      "total_rows": 228,
+      "missing_percentage": 0.44
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "depot",
+      "missing_count": 1,
+      "total_rows": 228,
+      "missing_percentage": 0.44
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "district",
+      "missing_count": 1,
+      "total_rows": 228,
+      "missing_percentage": 0.44
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "data_type",
+      "missing_count": 1,
+      "total_rows": 228,
+      "missing_percentage": 0.44
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "src_latitude",
+      "missing_count": 3,
+      "total_rows": 228,
+      "missing_percentage": 1.32
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "src_longitude",
+      "missing_count": 3,
+      "total_rows": 228,
+      "missing_percentage": 1.32
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "dst_latitude",
+      "missing_count": 3,
+      "total_rows": 228,
+      "missing_percentage": 1.32
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "dst_longitude",
+      "missing_count": 3,
+      "total_rows": 228,
+      "missing_percentage": 1.32
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "bus_status",
+      "missing_count": 2,
+      "total_rows": 228,
+      "missing_percentage": 0.88
+    },
+    {
+      "dataset": "buses_json",
+      "column_name": "operator_id",
+      "missing_count": 129,
+      "total_rows": 228,
+      "missing_percentage": 56.58
+    },
+    {
+      "dataset": "reviews_json",
+      "column_name": "original_text",
+      "missing_count": 5,
+      "total_rows": 37,
+      "missing_percentage": 13.51
+    },
+    {
+      "dataset": "reviews_json",
+      "column_name": "detected_language",
+      "missing_count": 5,
+      "total_rows": 37,
+      "missing_percentage": 13.51
+    },
+    {
+      "dataset": "reviews_json",
+      "column_name": "detected_language_code",
+      "missing_count": 5,
+      "total_rows": 37,
+      "missing_percentage": 13.51
+    },
+    {
+      "dataset": "reviews_json",
+      "column_name": "translated_text",
+      "missing_count": 5,
+      "total_rows": 37,
+      "missing_percentage": 13.51
+    },
+    {
+      "dataset": "complaints_json",
+      "column_name": "original_text",
+      "missing_count": 7,
+      "total_rows": 17,
+      "missing_percentage": 41.18
+    },
+    {
+      "dataset": "complaints_json",
+      "column_name": "detected_language",
+      "missing_count": 7,
+      "total_rows": 17,
+      "missing_percentage": 41.18
+    },
+    {
+      "dataset": "complaints_json",
+      "column_name": "detected_language_code",
+      "missing_count": 7,
+      "total_rows": 17,
+      "missing_percentage": 41.18
+    },
+    {
+      "dataset": "complaints_json",
+      "column_name": "translated_text",
+      "missing_count": 7,
+      "total_rows": 17,
+      "missing_percentage": 41.18
+    },
+    {
+      "dataset": "complaints_json",
+      "column_name": "sentiment",
+      "missing_count": 7,
+      "total_rows": 17,
+      "missing_percentage": 41.18
+    },
+    {
+      "dataset": "complaints_json",
+      "column_name": "resolved_at",
+      "missing_count": 16,
+      "total_rows": 17,
+      "missing_percentage": 94.12
+    }
+  ],
+  "duplicate_summary": [
+    {
+      "dataset": "buses_csv",
+      "total_rows": 124,
+      "exact_duplicates": 0,
+      "duplicate_percentage": 0.0
+    },
+    {
+      "dataset": "buses_json",
+      "total_rows": 228,
+      "exact_duplicates": 0,
+      "duplicate_percentage": 0.0
+    },
+    {
+      "dataset": "intents_csv",
+      "total_rows": 812,
+      "exact_duplicates": 0,
+      "duplicate_percentage": 0.0
+    },
+    {
+      "dataset": "reviews_json",
+      "total_rows": 37,
+      "exact_duplicates": 0,
+      "duplicate_percentage": 0.0
+    },
+    {
+      "dataset": "complaints_json",
+      "total_rows": 17,
+      "exact_duplicates": 0,
+      "duplicate_percentage": 0.0
+    },
+    {
+      "dataset": "bookings_json",
+      "total_rows": 9,
+      "exact_duplicates": 0,
+      "duplicate_percentage": 0.0
+    }
+  ],
+  "buses_analysis": {
+    "total_services": 228,
+    "fare_statistics": {
+      "count": 228,
+      "mean": 579.93,
+      "std": 400.28,
+      "min": 60.0,
+      "p25": 272.5,
+      "median": 500.0,
+      "p75": 825.0,
+      "max": 1750.0,
+      "iqr": 552.5
+    },
+    "distance_statistics": {
+      "count": 227,
+      "mean": 284.94,
+      "std": 178.39,
+      "min": 55.0,
+      "median": 215.0,
+      "max": 700.0
+    },
+    "distinct_routes_count": 25,
+    "top_routes": {
+      "Coimbatore -> Chennai": 10,
+      "Madurai -> Chennai": 10,
+      "Chennai -> Coimbatore": 10,
+      "Chennai -> Madurai": 9,
+      "Coimbatore -> Madurai": 9,
+      "Madurai -> Coimbatore": 9,
+      "Tiruppur -> Chennai": 9,
+      "Tiruppur -> Coimbatore": 9,
+      "Salem -> Chennai": 9,
+      "Coimbatore -> Ooty": 9
+    },
+    "top_sources": {
+      "Chennai": 73,
+      "Coimbatore": 55,
+      "Madurai": 37,
+      "Tiruppur": 18,
+      "Salem": 18,
+      "Tiruchirappalli": 18,
+      "Ooty": 9
+    },
+    "top_destinations": {
+      "Chennai": 47,
+      "Coimbatore": 37,
+      "Madurai": 18,
+      "Bangalore": 18,
+      "Ooty": 9,
+      "Tiruchirappalli": 9,
+      "Kanyakumari": 9,
+      "Rameswaram": 9,
+      "Erode": 9,
+      "Pondicherry": 9
+    },
+    "bus_type_distribution": {
+      "Classic Express": 35,
+      "Volvo Multi-Axle": 31,
+      "Ordinary Town Service": 30,
+      "Ultra Deluxe": 29,
+      "AC Sleeper": 29,
+      "Non-AC Sleeper": 26,
+      "Point-to-Point Superfast": 25,
+      "AC Seater": 23
+    },
+    "operator_distribution": {
+      "TNSTC Kumbakonam": 26,
+      "SRS Travels": 24,
+      "KPN Travels": 23,
+      "TNSTC Madurai": 22,
+      "VRL Travels": 22,
+      "SETC Tamil Nadu": 21,
+      "TNSTC Coimbatore": 21,
+      "IntrCity SmartBus": 16,
+      "TNSTC Salem": 14,
+      "Parveen Travels": 14,
+      "TNSTC Tirunelveli": 14,
+      "Metropolitan Transport Corporation Chennai": 11
+    },
+    "departure_period_distribution": {
+      "Night (21:00-04:59)": 76,
+      "Morning (05:00-11:59)": 75,
+      "Evening (17:00-20:59)": 52,
+      "Afternoon (12:00-16:59)": 25
+    },
+    "seat_occupancy_statistics": {
+      "mean_total_seats": 42.0,
+      "mean_available_seats": 21.1,
+      "mean_booked_seats": 21.0,
+      "mean_occupancy_percentage": 49.48
+    },
+    "fare_distance_correlation": {
+      "sample_size": 227,
+      "pearson_r": 0.8801,
+      "spearman_rho": 0.9167,
+      "r_squared": 0.7745,
+      "interpretation": "Strong Positive Linear Correlation"
+    }
+  },
+  "intents_analysis": {
+    "total_queries": 812,
+    "unique_intents": 14,
+    "most_frequent_intent": {
+      "intent": "route_search",
+      "count": 194,
+      "percentage": 23.89
+    },
+    "least_frequent_intent": {
+      "intent": "bus_search",
+      "count": 7,
+      "percentage": 0.86
+    },
+    "class_imbalance_ratio": 27.71,
+    "distribution": [
+      {
+        "intent": "route_search",
+        "sample_count": 194,
+        "percentage": 23.89
+      },
+      {
+        "intent": "fare_inquiry",
+        "sample_count": 126,
+        "percentage": 15.52
+      },
+      {
+        "intent": "bus_timing",
+        "sample_count": 100,
+        "percentage": 12.32
+      },
+      {
+        "intent": "seat_availability",
+        "sample_count": 98,
+        "percentage": 12.07
+      },
+      {
+        "intent": "complaint",
+        "sample_count": 83,
+        "percentage": 10.22
+      },
+      {
+        "intent": "booking",
+        "sample_count": 64,
+        "percentage": 7.88
+      },
+      {
+        "intent": "feedback",
+        "sample_count": 46,
+        "percentage": 5.67
+      },
+      {
+        "intent": "bus_status",
+        "sample_count": 33,
+        "percentage": 4.06
+      },
+      {
+        "intent": "tracking",
+        "sample_count": 17,
+        "percentage": 2.09
+      },
+      {
+        "intent": "greeting",
+        "sample_count": 13,
+        "percentage": 1.6
+      },
+      {
+        "intent": "help",
+        "sample_count": 12,
+        "percentage": 1.48
+      },
+      {
+        "intent": "cancellation",
+        "sample_count": 10,
+        "percentage": 1.23
+      },
+      {
+        "intent": "general_information",
+        "sample_count": 9,
+        "percentage": 1.11
+      },
+      {
+        "intent": "bus_search",
+        "sample_count": 7,
+        "percentage": 0.86
+      }
+    ],
+    "query_length_metrics": {
+      "character_length": {
+        "min": 2,
+        "mean": 36.83,
+        "median": 37.0,
+        "max": 80,
+        "std": 9.98
+      },
+      "word_count": {
+        "min": 1,
+        "mean": 6.56,
+        "median": 6.0,
+        "max": 16,
+        "std": 1.98
+      }
+    },
+    "script_representation": {
+      "Tamil_Script": 22,
+      "Hindi_Devanagari": 22,
+      "Telugu_Script": 23,
+      "Malayalam_Script": 22,
+      "Latin_Script_English_Tanglish_Hinglish": 723
+    }
+  },
+  "feedback_and_complaints": {
+    "reviews": {
+      "total_reviews": 37,
+      "mean_rating": 3.56,
+      "std_rating": 1.4,
+      "median_rating": 3.5,
+      "min_rating": 1.5,
+      "max_rating": 5.0,
+      "star_breakdown": {
+        "3.5": 11,
+        "5.0": 11,
+        "1.5": 10,
+        "4.5": 3,
+        "4.8": 2
+      },
+      "sentiment_distribution": {
+        "POSITIVE": 17,
+        "NEUTRAL": 10,
+        "NEGATIVE": 10
+      },
+      "detected_language_distribution": {
+        "Malayalam": 7,
+        "Tamil": 7,
+        "Telugu": 6,
+        "Hindi": 6,
+        "English": 6
+      }
+    },
+    "complaints": {
+      "total_complaints": 17,
+      "category_distribution": {
+        "Bus Delay": 14,
+        "Cleanliness": 1,
+        "AC Issue": 1,
+        "Driver Behaviour": 1
+      },
+      "status_distribution": {
+        "OPEN": 15,
+        "IN_PROGRESS": 1,
+        "RESOLVED": 1
+      },
+      "sentiment_distribution": {
+        "Negative": 10
+      },
+      "detected_language_distribution": {
+        "Malayalam": 2,
+        "Telugu": 2,
+        "Hindi": 2,
+        "Tamil": 2,
+        "English": 2
+      }
+    },
+    "sample_size_note": "Academic Note: The review dataset (N=37) and complaint dataset (N=17) serve as functional demonstration seed data for NLP sentiment classification and automated grievance pipelines. They demonstrate full end-to-end telemetry and validation, but are constrained in statistical generalizability compared to the production intent (N=812) and bus fleet (N=228) datasets."
+  },
+  "generated_charts": [
+    "fare_distribution.png",
+    "services_by_city.png",
+    "bus_type_distribution.png",
+    "missing_values_summary.png",
+    "fare_vs_distance_scatter.png",
+    "intent_distribution.png",
+    "reviews_sentiment_ratings.png",
+    "complaints_analysis.png"
+  ]
+}

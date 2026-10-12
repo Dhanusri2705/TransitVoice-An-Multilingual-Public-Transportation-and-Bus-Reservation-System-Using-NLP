@@ -1,0 +1,15 @@
+intent,sample_count,percentage
+route_search,194,23.89
+fare_inquiry,126,15.52
+bus_timing,100,12.32
+seat_availability,98,12.07
+complaint,83,10.22
+booking,64,7.88
+feedback,46,5.67
+bus_status,33,4.06
+tracking,17,2.09
+greeting,13,1.6
+help,12,1.48
+cancellation,10,1.23
+general_information,9,1.11
+bus_search,7,0.86
